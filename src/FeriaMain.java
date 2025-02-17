@@ -82,6 +82,7 @@ public class FeriaMain {
         Empresa empresa = new Empresa(nombre, sector, contacto);
         feria.registrarEmpresa(empresa);
         System.out.println("Empresa registrada exitosamente.");
+       //modificacion nombre de empresa
     }
 
     private static void editarEmpresa(Feria feria, Scanner scanner) {
